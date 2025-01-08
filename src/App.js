@@ -23,7 +23,7 @@ function App() {
       case 'clients':
         return <ClientsContent />;
       default:
-        return <p>Content for {currentPage} coming soon...</p>;
+        return <p>Content for {currentPage} coming soon....</p>;
     }
   };
 
